@@ -21,7 +21,7 @@
   <a name="usage"></a>
   ## Usage
   Run routes to view JSON data outputs. Start the server with 'node server.js' or use nodemon. Run the routes at local port in insomnia.
-  Here is a [video]() showing how the app functions in insomnia.
+  Here is a [video](https://drive.google.com/file/d/1tad0i3tLEFRdJSGBG1xFz9tgn8dIPSUq/view) showing how the app functions in insomnia.
 
   <a name="license"></a>
   ## Licensing
