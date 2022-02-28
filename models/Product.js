@@ -12,13 +12,13 @@ Product.init(
     // define columns
     id: {
       type: DataTypes.INTEGER,
-      autoIncrement: true,
-      primarykey: true,
-      allowNull: false
+      primaryKey: true,
+      allowNull: false,
+      autoIncrement: true
     },
     product_name: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: false,
     },
     price: {
       type: DataTypes.DECIMAL,
@@ -51,5 +51,6 @@ Product.init(
     modelName: 'product',
   }
 );
+
 
 module.exports = Product;

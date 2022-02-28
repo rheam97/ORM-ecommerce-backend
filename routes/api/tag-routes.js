@@ -40,7 +40,7 @@ router.get('/:id', (req, res) => {
 
 router.post('/', (req, res) => {
   Tag.create({
-    name: req.body.tag_name
+    tag_name: req.body.tag_name
   }).then(dbTagData=> res.json(dbTagData))
   .catch((err) => {
     console.log(err);
@@ -51,13 +51,13 @@ router.post('/', (req, res) => {
 
 router.put('/:id', (req, res) => {
   Tag.update({
-    name: req.body.tag_name
+    tag_name: req.body.tag_name
   },
-    {
-    where: req.params.id
-  }).then(dbTagData=> {
+  { where: {
+    id: req.params.id
+ }}).then(dbTagData=> {
     if(!dbTagData){
-      res.sendStatus(404).json({message: 'No tage found with this id'})
+      res.sendStatus(404).json({message: 'No tag found with this id'})
       return
     }
     res.json(dbTagData)
@@ -76,7 +76,7 @@ router.delete('/:id', (req, res) => {
     }
   }).then(dbTagData=> {
     if(!dbTagData){
-    res.sendStatus(404).json({message: 'No tage found with this id'})
+    res.sendStatus(404).json({message: 'No tag found with this id'})
     return
   }
   res.json(dbTagData)
