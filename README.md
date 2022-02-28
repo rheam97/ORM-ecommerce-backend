@@ -22,14 +22,10 @@
   ## Usage
   Run routes to view JSON data outputs.
   Here is a [video]() showing how the app functions in insomnia.
-  
+
   <a name="license"></a>
   ## Licensing
   This app is licensed under MIT. For more information, click on the badge link above.
-
-  <a name="testing"></a>
-  ## Testing Instructions
-  
 
   <a name="questions"></a>
   ## Questions
