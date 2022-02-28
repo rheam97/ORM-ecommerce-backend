@@ -16,11 +16,11 @@
 
   <a name="install"></a>
   ## Installation
-  Clone the repo. Run command 'npm i' in terminal. Start the server with 'node server.js' or use nodemon. Run the routes at local port in insomnia.
+  Clone the repo. Run command 'npm i' in terminal. 
 
   <a name="usage"></a>
   ## Usage
-  Run routes to view JSON data outputs.
+  Run routes to view JSON data outputs. Start the server with 'node server.js' or use nodemon. Run the routes at local port in insomnia.
   Here is a [video]() showing how the app functions in insomnia.
 
   <a name="license"></a>
